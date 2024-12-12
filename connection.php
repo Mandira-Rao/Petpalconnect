@@ -14,15 +14,5 @@
     die("Connection failed: " . $conn->connect_error);
   }
   
- // $sql = "SELECT * FROM login where username=".$_SESSION["user"].
-   //      "and password=".$_SESSION["password"];
-  //$result = $conn->query($sql);
-  
-  //if ($result==0) {
-    // output data of each row
-   // echo "Successful <hr>";
-    //}
-   //else {
-   // echo "0 results";
-  //}
+ 
 ?>
